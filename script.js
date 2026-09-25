@@ -1,3 +1,6 @@
+document.querySelectorAll('[data-year]').forEach((year) => {
+  year.textContent = new Date().getFullYear();
+});
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.site-nav');
 
