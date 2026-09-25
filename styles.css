@@ -33,11 +33,11 @@ h1, h2, h3, p { margin-top: 0; }
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 28px 30px;
+  padding: 34px 30px;
 }
-.site-name { font-family: var(--serif); font-size: 27px; font-weight: 600; }
-nav { display: flex; gap: 28px; }
-nav a, .quiet-link, .text-link { font-family: var(--mono); font-size: 13px; }
+.site-name { font-family: var(--serif); font-size: 32px; font-weight: 600; }
+nav { display: flex; gap: 32px; }
+nav a, .quiet-link, .text-link { font-family: var(--mono); font-size: 15px; }
 nav a { color: var(--muted); }
 nav a:hover, .quiet-link:hover, .text-link:hover { color: var(--accent); }
 
@@ -143,9 +143,9 @@ footer a:hover, .print-button:hover { color: var(--accent); }
 .print-button { background: none; border: 0; color: inherit; cursor: pointer; font: inherit; padding: 0; text-transform: uppercase; }
 
 @media (max-width: 720px) {
-  .site-header { padding: 22px 20px; }
+  .site-header { padding: 25px 20px; }
   nav { gap: 15px; }
-  nav a { font-size: 11px; }
+  nav a { font-size: 12px; }
   main { padding: 0 20px; }
   .profile { display: block; padding: 65px 0 48px; }
   .profile-facts { margin-top: 54px; }
@@ -179,9 +179,9 @@ footer a:hover, .print-button:hover { color: var(--accent); }
 }
 
 @media (max-width: 410px) {
-  .site-name { font-size: 22px; }
+  .site-name { font-size: 25px; }
   nav { gap: 10px; }
-  nav a { font-size: 10px; }
+  nav a { font-size: 11px; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 4px; }
   .button { padding: 8px 14px; }
 }
