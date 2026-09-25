@@ -145,7 +145,7 @@ footer a:hover, .print-button:hover { color: var(--accent); }
 @media (max-width: 720px) {
   .site-header { padding: 22px 20px; }
   nav { gap: 15px; }
-  nav a { font-size: 20px; }
+  nav a { font-size: 11px; }
   main { padding: 0 20px; }
   .profile { display: block; padding: 65px 0 48px; }
   .profile-facts { margin-top: 54px; }
