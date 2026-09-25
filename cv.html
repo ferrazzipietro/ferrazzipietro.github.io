@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum vitae of Pietro Ferrazzi.">
+    <title>CV | Pietro Ferrazzi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="index.html">Pietro Ferrazzi</a>
+      <nav aria-label="CV actions">
+        <a href="index.html">Home</a>
+        <a href="mailto:pferrazzi@fbk.eu?subject=CV%20request">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="profile cv-intro" aria-labelledby="cv-title">
+        <div class="identity">
+          <p class="kicker">Curriculum vitae</p>
+          <h1 id="cv-title">Pietro Ferrazzi</h1>
+          <p class="role">PhD Researcher in Natural Language Processing</p>
+          <p class="summary">Fondazione Bruno Kessler and University of Padua</p>
+        </div>
+        <aside class="profile-facts" aria-label="Contact details">
+          <div class="fact">
+            <p class="fact-label">Email</p>
+            <p><a href="mailto:pferrazzi@fbk.eu">pferrazzi@fbk.eu</a></p>
+          </div>
+          <div class="fact">
+            <p class="fact-label">ORCID</p>
+            <p><a href="https://orcid.org/0009-0007-6223-9112">0009-0007-6223-9112</a></p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="content-section cv-section" aria-labelledby="research-cv-title">
+        <p class="section-label">Research</p>
+        <h2 id="research-cv-title">Clinical NLP and multilingual language models</h2>
+        <p class="cv-copy">Research interests include clinical information extraction, multilingual medical NLP, large language models, and medical data applications. My PhD project is supervised by Alberto Lavelli and focuses on extracting information from clinical documents across languages.</p>
+      </section>
+
+      <section class="content-section cv-section" aria-labelledby="education-title">
+        <p class="section-label">Education</p>
+        <h2 id="education-title">Education and training</h2>
+        <div class="cv-list">
+          <article>
+            <h3>PhD in Brain, Mind and Computer Science</h3>
+            <p>Fondazione Bruno Kessler, in partnership with the University of Padua</p>
+          </article>
+          <article>
+            <h3>MSc in Big Data Management and Analytics</h3>
+            <p>Joint programme: Universite libre de Bruxelles, Universitat Politecnica de Catalunya, and University of Padua</p>
+          </article>
+          <article>
+            <h3>BSc in Statistics</h3>
+            <p>University of Padua</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span data-year></span> Pietro Ferrazzi</p>
+      <button type="button" class="print-button" onclick="window.print()">Print CV</button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
