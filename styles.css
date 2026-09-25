@@ -119,6 +119,24 @@ h2 { font-size: clamp(34px, 4.1vw, 54px); line-height: 1.05; margin-bottom: 38px
 .career-detail h3 { font-family: var(--mono); font-size: clamp(16px, 1.6vw, 21px); font-weight: 500; line-height: 1.35; margin: 0 0 17px; text-transform: uppercase; }
 .career-detail p:last-child { color: #566174; font-family: var(--mono); font-size: 14px; line-height: 1.6; margin-bottom: 0; max-width: 700px; }
 
+.activities-intro { align-items: end; display: grid; gap: clamp(45px, 10vw, 150px); grid-template-columns: minmax(0, 1fr) minmax(260px, .55fr); padding: clamp(70px, 10vw, 126px) 0 clamp(50px, 7vw, 84px); }
+.activities-intro h1 { margin: 0; }
+.activities-intro > p { color: #4c4d48; font-size: 17px; line-height: 1.65; margin: 0 0 5px; max-width: 400px; }
+.activities-list { border-top: 2px solid var(--ink); }
+.activity-entry { display: grid; gap: 28px; grid-template-columns: minmax(130px, .52fr) minmax(220px, .9fr) minmax(0, 1.25fr); padding: clamp(38px, 5vw, 68px) 0; }
+.activity-entry + .activity-entry { border-top: 1px solid var(--line); }
+.activity-meta { padding-top: 3px; }
+.activity-date, .activity-type { font-family: var(--mono); font-size: 11px; line-height: 1.45; }
+.activity-date { color: var(--accent); margin-bottom: 11px; }
+.activity-type { color: var(--muted); margin: 0; text-transform: uppercase; }
+.activity-media { aspect-ratio: 4 / 3; margin: 0; overflow: hidden; }
+.activity-media img { display: block; height: 100%; object-fit: cover; width: 100%; }
+.activity-media-portrait img { object-position: center 26%; }
+.activity-media-tall img { object-position: center 38%; }
+.activity-copy h2 { font-size: clamp(26px, 3vw, 40px); margin: -5px 0 15px; }
+.activity-copy > p { color: #4c4d48; font-size: 15px; line-height: 1.7; margin-bottom: 17px; max-width: 560px; }
+.activity-secondary-link { margin-left: 20px; }
+
 footer { border-top: 1px solid var(--line); color: var(--muted); display: flex; font-family: var(--mono); font-size: 10px; justify-content: space-between; margin: 0 auto; max-width: 1200px; padding: 21px 30px 28px; text-transform: uppercase; }
 footer p { margin: 0; }
 footer a:hover, .print-button:hover { color: var(--accent); }
@@ -145,6 +163,15 @@ footer a:hover, .print-button:hover { color: var(--accent); }
   .career-organisation { font-size: 11px; margin-bottom: 8px; }
   .career-detail h3 { font-size: 16px; margin-bottom: 12px; }
   .career-detail p:last-child { font-size: 13px; }
+  .activities-intro { display: block; padding: 65px 0 48px; }
+  .activities-intro > p { margin-top: 28px; }
+  .activity-entry { display: grid; gap: 18px; grid-template-columns: 1fr; padding: 45px 0; }
+  .activity-meta { align-items: baseline; display: flex; gap: 14px; padding: 0; }
+  .activity-date { margin: 0; }
+  .activity-media { max-width: 560px; order: 3; }
+  .activity-copy { order: 2; }
+  .activity-copy h2 { margin-top: 0; }
+  .activity-secondary-link { margin-left: 15px; }
   .about { display: block; }
   .about .section-label { margin-bottom: 17px; }
   .about h2 { margin-bottom: 28px; }
