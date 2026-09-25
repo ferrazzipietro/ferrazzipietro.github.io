@@ -105,10 +105,12 @@ h2 { font-size: clamp(34px, 4.1vw, 54px); line-height: 1.05; margin-bottom: 38px
 .cv-section { border-top: 1px solid var(--line); max-width: 900px; }
 .cv-section h2 { margin-bottom: 21px; }
 .cv-copy { font-size: 17px; line-height: 1.7; max-width: 760px; }
-.cv-list { border-top: 1px solid var(--ink); }
-.cv-list article { border-bottom: 1px solid var(--line); padding: 19px 0; }
-.cv-list h3 { font-family: var(--serif); font-size: 23px; font-weight: 500; margin-bottom: 4px; }
-.cv-list p { color: var(--muted); font-size: 14px; margin: 0; }
+.career-list { border-top: 1px solid var(--ink); }
+.career-entry { border-bottom: 1px solid var(--line); display: grid; gap: 25px; grid-template-columns: 118px minmax(0, 1fr); padding: 25px 0 28px; }
+.career-period { color: var(--accent); font-family: var(--mono); font-size: 11px; line-height: 1.4; margin: 3px 0 0; }
+.career-organisation { color: var(--muted); font-family: var(--mono); font-size: 10px; letter-spacing: .04em; margin-bottom: 8px; text-transform: uppercase; }
+.career-detail h3 { font-family: var(--serif); font-size: clamp(21px, 2.2vw, 27px); font-weight: 500; line-height: 1.15; margin-bottom: 8px; }
+.career-detail p:last-child { color: var(--muted); font-size: 14px; line-height: 1.55; margin-bottom: 0; max-width: 630px; }
 
 footer { border-top: 1px solid var(--line); color: var(--muted); display: flex; font-family: var(--mono); font-size: 10px; justify-content: space-between; margin: 0 auto; max-width: 1200px; padding: 21px 30px 28px; text-transform: uppercase; }
 footer p { margin: 0; }
@@ -127,6 +129,7 @@ footer a:hover, .print-button:hover { color: var(--accent); }
   .link-set { gap: 9px 18px; }
   .content-section { padding: 65px 0; }
   .publication-list li { gap: 8px; grid-template-columns: 1fr; }
+  .career-entry { gap: 8px; grid-template-columns: 1fr; padding: 22px 0 25px; }
   .about { display: block; }
   .about .section-label { margin-bottom: 17px; }
   .about h2 { margin-bottom: 28px; }
