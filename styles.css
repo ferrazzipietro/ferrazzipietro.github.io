@@ -65,7 +65,7 @@ h1 { font-size: clamp(48px, 6.4vw, 88px); line-height: .96; margin-bottom: 21px;
 .button:hover { background: var(--ink); color: var(--background); }
 .button-primary { background: var(--ink); color: var(--background); }
 .button-primary:hover { background: var(--accent); border-color: var(--accent); }
-.profile-portrait { align-self: end; margin: 0; max-width: 390px; }
+.profile-portrait { align-self: end; margin: 0; max-width: 200px; }
 .profile-portrait img { aspect-ratio: 4 / 5; display: block; object-fit: cover; object-position: center; overflow: hidden; width: 100%; }
 .profile-portrait figcaption { color: #73746e; font-family: var(--mono); font-size: 9px; line-height: 1.35; margin-top: 6px; }
 
@@ -151,7 +151,7 @@ footer a:hover, .print-button:hover { color: var(--accent); }
   nav a { font-size: 12px; }
   main { padding: 0 20px; }
   .profile { display: block; padding: 65px 0 48px; }
-  .profile-portrait { margin-top: 42px; max-width: 420px; width: 100%; }
+  .profile-portrait { margin-top: 42px; max-width: 200px; width: 100%; }
   .profile-facts { margin-top: 54px; }
   .quick-links { display: block; padding: 17px 0; }
   .quick-links .section-label { margin-bottom: 13px; }
